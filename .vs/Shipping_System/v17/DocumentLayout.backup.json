@@ -1,0 +1,355 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|h:\\c#\\topup practicals\\windows_forms\\shipping_system\\shipping_system\\forms\\createjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|solutionrelative:shipping_system\\forms\\createjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\shipping_system\\forms\\customerdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|solutionrelative:shipping_system\\forms\\customerdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|h:\\c#\\topup practicals\\windows_forms\\shipping_system\\shipping_system\\forms\\createjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|solutionrelative:shipping_system\\forms\\createjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|h:\\c#\\topup practicals\\windows_forms\\shipping_system\\shipping_system\\forms\\customerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|solutionrelative:shipping_system\\forms\\customerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\shipping_system\\forms\\customerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|solutionrelative:shipping_system\\forms\\customerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|h:\\c#\\topup practicals\\windows_forms\\shipping_system\\shipping_system\\forms\\customerdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|solutionrelative:shipping_system\\forms\\customerdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|h:\\c#\\topup practicals\\windows_forms\\shipping_system\\shipping_system\\forms\\customerlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|solutionrelative:shipping_system\\forms\\customerlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|h:\\c#\\topup practicals\\windows_forms\\shipping_system\\shipping_system\\forms\\jobs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|solutionrelative:shipping_system\\forms\\jobs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\shipping_system\\forms\\jobs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|solutionrelative:shipping_system\\forms\\jobs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|h:\\c#\\topup practicals\\windows_forms\\shipping_system\\shipping_system\\business\\service\\customerbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|solutionrelative:shipping_system\\business\\service\\customerbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|h:\\c#\\topup practicals\\windows_forms\\shipping_system\\shipping_system\\repository\\interface\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|solutionrelative:shipping_system\\repository\\interface\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|h:\\c#\\topup practicals\\windows_forms\\shipping_system\\shipping_system\\business\\interface\\icustomerbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|solutionrelative:shipping_system\\business\\interface\\icustomerbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|h:\\c#\\topup practicals\\windows_forms\\shipping_system\\shipping_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|solutionrelative:shipping_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|h:\\c#\\topup practicals\\windows_forms\\shipping_system\\shipping_system\\repository\\service\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|solutionrelative:shipping_system\\repository\\service\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\shipping_system\\forms\\maininterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|solutionrelative:shipping_system\\forms\\maininterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\shipping_system\\forms\\customerlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|solutionrelative:shipping_system\\forms\\customerlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|h:\\c#\\topup practicals\\windows_forms\\shipping_system\\shipping_system\\forms\\customerregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|solutionrelative:shipping_system\\forms\\customerregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\shipping_system\\forms\\customerregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|solutionrelative:shipping_system\\forms\\customerregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|h:\\c#\\topup practicals\\windows_forms\\shipping_system\\shipping_system\\models\\customermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|solutionrelative:shipping_system\\models\\customermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|h:\\c#\\topup practicals\\windows_forms\\shipping_system\\shipping_system\\forms\\adminlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|solutionrelative:shipping_system\\forms\\adminlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|h:\\c#\\topup practicals\\windows_forms\\shipping_system\\shipping_system\\forms\\maininterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B102093-44D2-4C36-8CF7-ADFB976567B6}|Shipping_System\\Shipping_System.csproj|solutionrelative:shipping_system\\forms\\maininterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateJob.cs [Design]",
+              "DocumentMoniker": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Forms\\CreateJob.cs",
+              "RelativeDocumentMoniker": "Shipping_System\\Forms\\CreateJob.cs",
+              "ToolTip": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Forms\\CreateJob.cs [Design]",
+              "RelativeToolTip": "Shipping_System\\Forms\\CreateJob.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T19:42:10.043Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateJob.cs",
+              "DocumentMoniker": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Forms\\CreateJob.cs",
+              "RelativeDocumentMoniker": "Shipping_System\\Forms\\CreateJob.cs",
+              "ToolTip": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Forms\\CreateJob.cs",
+              "RelativeToolTip": "Shipping_System\\Forms\\CreateJob.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAIwBsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T19:56:38.029Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerDashboard.cs [Design]",
+              "DocumentMoniker": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Forms\\CustomerDashboard.cs",
+              "RelativeDocumentMoniker": "Shipping_System\\Forms\\CustomerDashboard.cs",
+              "ToolTip": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Forms\\CustomerDashboard.cs [Design]",
+              "RelativeToolTip": "Shipping_System\\Forms\\CustomerDashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T03:05:56.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerDetails.cs [Design]",
+              "DocumentMoniker": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Forms\\CustomerDetails.cs",
+              "RelativeDocumentMoniker": "Shipping_System\\Forms\\CustomerDetails.cs",
+              "ToolTip": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Forms\\CustomerDetails.cs [Design]",
+              "RelativeToolTip": "Shipping_System\\Forms\\CustomerDetails.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T11:33:14.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerDetails.cs",
+              "DocumentMoniker": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Forms\\CustomerDetails.cs",
+              "RelativeDocumentMoniker": "Shipping_System\\Forms\\CustomerDetails.cs",
+              "ToolTip": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Forms\\CustomerDetails.cs",
+              "RelativeToolTip": "Shipping_System\\Forms\\CustomerDetails.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T15:06:29.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomerDashboard.cs",
+              "DocumentMoniker": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Forms\\CustomerDashboard.cs",
+              "RelativeDocumentMoniker": "Shipping_System\\Forms\\CustomerDashboard.cs",
+              "ToolTip": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Forms\\CustomerDashboard.cs",
+              "RelativeToolTip": "Shipping_System\\Forms\\CustomerDashboard.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA1wA8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T06:36:17.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomerLogin.cs",
+              "DocumentMoniker": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Forms\\CustomerLogin.cs",
+              "RelativeDocumentMoniker": "Shipping_System\\Forms\\CustomerLogin.cs",
+              "ToolTip": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Forms\\CustomerLogin.cs",
+              "RelativeToolTip": "Shipping_System\\Forms\\CustomerLogin.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAmwHoAAACPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T15:07:33.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Jobs.cs",
+              "DocumentMoniker": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Forms\\Jobs.cs",
+              "RelativeDocumentMoniker": "Shipping_System\\Forms\\Jobs.cs",
+              "ToolTip": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Forms\\Jobs.cs",
+              "RelativeToolTip": "Shipping_System\\Forms\\Jobs.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T18:55:43.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Jobs.cs [Design]",
+              "DocumentMoniker": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Forms\\Jobs.cs",
+              "RelativeDocumentMoniker": "Shipping_System\\Forms\\Jobs.cs",
+              "ToolTip": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Forms\\Jobs.cs [Design]",
+              "RelativeToolTip": "Shipping_System\\Forms\\Jobs.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T11:33:59.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomerBusiness.cs",
+              "DocumentMoniker": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Business\\Service\\CustomerBusiness.cs",
+              "RelativeDocumentMoniker": "Shipping_System\\Business\\Service\\CustomerBusiness.cs",
+              "ToolTip": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Business\\Service\\CustomerBusiness.cs",
+              "RelativeToolTip": "Shipping_System\\Business\\Service\\CustomerBusiness.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCkAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T15:23:18.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Repository\\Interface\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "Shipping_System\\Repository\\Interface\\ICustomerRepository.cs",
+              "ToolTip": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Repository\\Interface\\ICustomerRepository.cs",
+              "RelativeToolTip": "Shipping_System\\Repository\\Interface\\ICustomerRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T12:45:16.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ICustomerBusiness.cs",
+              "DocumentMoniker": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Business\\Interface\\ICustomerBusiness.cs",
+              "RelativeDocumentMoniker": "Shipping_System\\Business\\Interface\\ICustomerBusiness.cs",
+              "ToolTip": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Business\\Interface\\ICustomerBusiness.cs",
+              "RelativeToolTip": "Shipping_System\\Business\\Interface\\ICustomerBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T15:21:38.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Program.cs",
+              "RelativeDocumentMoniker": "Shipping_System\\Program.cs",
+              "ToolTip": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Program.cs",
+              "RelativeToolTip": "Shipping_System\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T14:34:21.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainInterface.cs [Design]",
+              "DocumentMoniker": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Forms\\MainInterface.cs",
+              "RelativeDocumentMoniker": "Shipping_System\\Forms\\MainInterface.cs",
+              "ToolTip": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Forms\\MainInterface.cs [Design]",
+              "RelativeToolTip": "Shipping_System\\Forms\\MainInterface.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T13:46:01.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Repository\\Service\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "Shipping_System\\Repository\\Service\\CustomerRepository.cs",
+              "ToolTip": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Repository\\Service\\CustomerRepository.cs",
+              "RelativeToolTip": "Shipping_System\\Repository\\Service\\CustomerRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAmwCoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T12:48:02.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CustomerLogin.cs [Design]",
+              "DocumentMoniker": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Forms\\CustomerLogin.cs",
+              "RelativeDocumentMoniker": "Shipping_System\\Forms\\CustomerLogin.cs",
+              "ToolTip": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Forms\\CustomerLogin.cs [Design]",
+              "RelativeToolTip": "Shipping_System\\Forms\\CustomerLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T14:55:24.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CustomerRegistration.cs",
+              "DocumentMoniker": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Forms\\CustomerRegistration.cs",
+              "RelativeDocumentMoniker": "Shipping_System\\Forms\\CustomerRegistration.cs",
+              "ToolTip": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Forms\\CustomerRegistration.cs",
+              "RelativeToolTip": "Shipping_System\\Forms\\CustomerRegistration.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAkwHgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T08:44:35.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CustomerRegistration.cs [Design]",
+              "DocumentMoniker": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Forms\\CustomerRegistration.cs",
+              "RelativeDocumentMoniker": "Shipping_System\\Forms\\CustomerRegistration.cs",
+              "ToolTip": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Forms\\CustomerRegistration.cs [Design]",
+              "RelativeToolTip": "Shipping_System\\Forms\\CustomerRegistration.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T07:46:02.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CustomerModel.cs",
+              "DocumentMoniker": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Models\\CustomerModel.cs",
+              "RelativeDocumentMoniker": "Shipping_System\\Models\\CustomerModel.cs",
+              "ToolTip": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Models\\CustomerModel.cs",
+              "RelativeToolTip": "Shipping_System\\Models\\CustomerModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T12:43:31.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MainInterface.cs",
+              "DocumentMoniker": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Forms\\MainInterface.cs",
+              "RelativeDocumentMoniker": "Shipping_System\\Forms\\MainInterface.cs",
+              "ToolTip": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Forms\\MainInterface.cs",
+              "RelativeToolTip": "Shipping_System\\Forms\\MainInterface.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwBIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T14:32:06.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AdminLogin.cs",
+              "DocumentMoniker": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Forms\\AdminLogin.cs",
+              "RelativeDocumentMoniker": "Shipping_System\\Forms\\AdminLogin.cs",
+              "ToolTip": "H:\\C#\\Topup practicals\\Windows_Forms\\Shipping_System\\Shipping_System\\Forms\\AdminLogin.cs",
+              "RelativeToolTip": "Shipping_System\\Forms\\AdminLogin.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA4wCEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T18:36:16.526Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
