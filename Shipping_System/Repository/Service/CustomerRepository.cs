@@ -12,7 +12,7 @@ namespace Shipping_System.Repository.Service
 {
     public class CustomerRepository : ICustomerRepository // Implementation of the ICustomerRepository interface
     {
-        String connectionstring = "Server=DESKTOP-5CVPK75; Database=Eshift; Integrated Security=SSPI; Trusted_Connection=True; TrustServerCertificate=True;";
+        String connectionstring = "Server=LAPTOP-59PVKG7G; Database=Eshift; Integrated Security=SSPI; Trusted_Connection=True; TrustServerCertificate=True;";
         public void AddCustomer(CustomerModel customer)
         {
             using(SqlConnection conn  = new SqlConnection(connectionstring))
@@ -30,6 +30,47 @@ namespace Shipping_System.Repository.Service
                 cmd.ExecuteNonQuery();
             }
         }
+
+        public List<CustomerModel> GetAllCustomers()
+        {
+            var customerList = new List<CustomerModel>();
+            using (SqlConnection conn = new SqlConnection(connectionstring))
+            {
+                conn.Open();
+                var query = "SELECT * FROM Customer";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    var customer = new CustomerModel
+                    {
+                        CustomerId = Convert.ToInt32(reader["customer_id"]),
+                        Firstname = reader["first_name"].ToString(),
+                        Lastname = reader["last_name"].ToString(),
+                        Email = reader["email"].ToString(),
+                        Phonenumber = reader["phone_number"].ToString(),
+                        Address = reader["address"].ToString(),
+                        Password = reader["password"].ToString()
+                    };
+                    customerList.Add(customer);
+                }
+            }
+            return customerList; 
+        }
+
+        public int GetCustomerIdByEmail(string email)
+        {
+            using (SqlConnection conn = new SqlConnection(connectionstring))
+            {
+                conn.Open();
+                var query = "SELECT customer_id FROM Customer WHERE email = @email";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@email", email);
+                var result = cmd.ExecuteScalar();
+                return Convert.ToInt32(result); // Returns the customer ID based on the provided email
+            }
+        }
+
         public List<CustomerModel> GetLoggedInCustomerDetails(string email)
         {
             var customerdetails = new List<CustomerModel>();
