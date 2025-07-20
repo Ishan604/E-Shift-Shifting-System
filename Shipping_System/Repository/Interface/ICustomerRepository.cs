@@ -14,5 +14,7 @@ namespace Shipping_System.Repository.Interface
         public void UpdateCustomer(CustomerModel customer); // Method to update customer details
         List<CustomerModel> GetLoggedInCustomerDetails(string email); // Method to get details of the logged-in customer
         List<CustomerModel> GetUpdatedCustomerDetails(int id); // Method to get updated customer details
+        public int GetCustomerIdByEmail(string email); // Method to get customer ID by email
+        List<CustomerModel> GetAllCustomers(); // Method to get all customers(for admin use)
     }
 }
