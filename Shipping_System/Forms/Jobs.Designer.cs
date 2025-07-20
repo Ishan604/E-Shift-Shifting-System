@@ -117,6 +117,7 @@
             pnlviewjob.Name = "pnlviewjob";
             pnlviewjob.Size = new Size(228, 210);
             pnlviewjob.TabIndex = 17;
+            pnlviewjob.Click += pnlviewjob_Click;
             // 
             // pcbviewjob
             // 

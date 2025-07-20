@@ -1,6 +1,6 @@
 ﻿namespace Shipping_System.Forms
 {
-    partial class CustomerDashboard
+    partial class AdminDashboard
     {
         /// <summary>
         /// Required designer variable.
@@ -30,9 +30,11 @@
         {
             panelnavigation = new Panel();
             btnlogout = new Button();
-            btnsettings = new Button();
-            btnstatus = new Button();
-            btnjobs = new Button();
+            btnassignedloads = new Button();
+            btntransportunit = new Button();
+            btnjobstatus = new Button();
+            btnjobrequests = new Button();
+            btnregcustomers = new Button();
             btnpersonalinfo = new Button();
             panel2 = new Panel();
             pcblogo = new PictureBox();
@@ -50,16 +52,18 @@
             // 
             panelnavigation.BackColor = Color.FromArgb(64, 64, 64);
             panelnavigation.Controls.Add(btnlogout);
-            panelnavigation.Controls.Add(btnsettings);
-            panelnavigation.Controls.Add(btnstatus);
-            panelnavigation.Controls.Add(btnjobs);
+            panelnavigation.Controls.Add(btnassignedloads);
+            panelnavigation.Controls.Add(btntransportunit);
+            panelnavigation.Controls.Add(btnjobstatus);
+            panelnavigation.Controls.Add(btnjobrequests);
+            panelnavigation.Controls.Add(btnregcustomers);
             panelnavigation.Controls.Add(btnpersonalinfo);
             panelnavigation.Controls.Add(panel2);
             panelnavigation.Dock = DockStyle.Left;
             panelnavigation.Location = new Point(0, 0);
             panelnavigation.Name = "panelnavigation";
-            panelnavigation.Size = new Size(194, 625);
-            panelnavigation.TabIndex = 0;
+            panelnavigation.Size = new Size(194, 681);
+            panelnavigation.TabIndex = 1;
             // 
             // btnlogout
             // 
@@ -68,58 +72,88 @@
             btnlogout.FlatStyle = FlatStyle.Flat;
             btnlogout.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnlogout.ForeColor = Color.White;
-            btnlogout.Location = new Point(0, 292);
+            btnlogout.Location = new Point(0, 400);
             btnlogout.Name = "btnlogout";
             btnlogout.Size = new Size(194, 54);
-            btnlogout.TabIndex = 6;
+            btnlogout.TabIndex = 8;
             btnlogout.Text = "Log Out";
             btnlogout.UseVisualStyleBackColor = true;
             btnlogout.Click += btnlogout_Click;
             // 
-            // btnsettings
+            // btnassignedloads
             // 
-            btnsettings.Dock = DockStyle.Top;
-            btnsettings.FlatAppearance.BorderSize = 0;
-            btnsettings.FlatStyle = FlatStyle.Flat;
-            btnsettings.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnsettings.ForeColor = Color.White;
-            btnsettings.Location = new Point(0, 238);
-            btnsettings.Name = "btnsettings";
-            btnsettings.Size = new Size(194, 54);
-            btnsettings.TabIndex = 5;
-            btnsettings.Text = "Settings";
-            btnsettings.UseVisualStyleBackColor = true;
-            btnsettings.Click += btnsettings_Click;
+            btnassignedloads.Dock = DockStyle.Top;
+            btnassignedloads.FlatAppearance.BorderSize = 0;
+            btnassignedloads.FlatStyle = FlatStyle.Flat;
+            btnassignedloads.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnassignedloads.ForeColor = Color.White;
+            btnassignedloads.Location = new Point(0, 346);
+            btnassignedloads.Name = "btnassignedloads";
+            btnassignedloads.Size = new Size(194, 54);
+            btnassignedloads.TabIndex = 7;
+            btnassignedloads.Text = "Assign Loads";
+            btnassignedloads.UseVisualStyleBackColor = true;
+            btnassignedloads.Click += btnassignedloads_Click;
             // 
-            // btnstatus
+            // btntransportunit
             // 
-            btnstatus.Dock = DockStyle.Top;
-            btnstatus.FlatAppearance.BorderSize = 0;
-            btnstatus.FlatStyle = FlatStyle.Flat;
-            btnstatus.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnstatus.ForeColor = Color.White;
-            btnstatus.Location = new Point(0, 184);
-            btnstatus.Name = "btnstatus";
-            btnstatus.Size = new Size(194, 54);
-            btnstatus.TabIndex = 4;
-            btnstatus.Text = "User Satatus";
-            btnstatus.UseVisualStyleBackColor = true;
-            btnstatus.Click += btnstatus_Click;
+            btntransportunit.Dock = DockStyle.Top;
+            btntransportunit.FlatAppearance.BorderSize = 0;
+            btntransportunit.FlatStyle = FlatStyle.Flat;
+            btntransportunit.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btntransportunit.ForeColor = Color.White;
+            btntransportunit.Location = new Point(0, 292);
+            btntransportunit.Name = "btntransportunit";
+            btntransportunit.Size = new Size(194, 54);
+            btntransportunit.TabIndex = 6;
+            btntransportunit.Text = "Transport Units";
+            btntransportunit.UseVisualStyleBackColor = true;
+            btntransportunit.Click += btntransportunit_Click;
             // 
-            // btnjobs
+            // btnjobstatus
             // 
-            btnjobs.Dock = DockStyle.Top;
-            btnjobs.FlatAppearance.BorderSize = 0;
-            btnjobs.FlatStyle = FlatStyle.Flat;
-            btnjobs.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnjobs.ForeColor = Color.White;
-            btnjobs.Location = new Point(0, 130);
-            btnjobs.Name = "btnjobs";
-            btnjobs.Size = new Size(194, 54);
-            btnjobs.TabIndex = 3;
-            btnjobs.Text = "Jobs";
-            btnjobs.UseVisualStyleBackColor = true;
-            btnjobs.Click += btnjobs_Click;
+            btnjobstatus.Dock = DockStyle.Top;
+            btnjobstatus.FlatAppearance.BorderSize = 0;
+            btnjobstatus.FlatStyle = FlatStyle.Flat;
+            btnjobstatus.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnjobstatus.ForeColor = Color.White;
+            btnjobstatus.Location = new Point(0, 238);
+            btnjobstatus.Name = "btnjobstatus";
+            btnjobstatus.Size = new Size(194, 54);
+            btnjobstatus.TabIndex = 5;
+            btnjobstatus.Text = "Job Status";
+            btnjobstatus.UseVisualStyleBackColor = true;
+            btnjobstatus.Click += btnjobstatus_Click;
+            // 
+            // btnjobrequests
+            // 
+            btnjobrequests.Dock = DockStyle.Top;
+            btnjobrequests.FlatAppearance.BorderSize = 0;
+            btnjobrequests.FlatStyle = FlatStyle.Flat;
+            btnjobrequests.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnjobrequests.ForeColor = Color.White;
+            btnjobrequests.Location = new Point(0, 184);
+            btnjobrequests.Name = "btnjobrequests";
+            btnjobrequests.Size = new Size(194, 54);
+            btnjobrequests.TabIndex = 4;
+            btnjobrequests.Text = "Job Requests";
+            btnjobrequests.UseVisualStyleBackColor = true;
+            btnjobrequests.Click += btnjobrequests_Click;
+            // 
+            // btnregcustomers
+            // 
+            btnregcustomers.Dock = DockStyle.Top;
+            btnregcustomers.FlatAppearance.BorderSize = 0;
+            btnregcustomers.FlatStyle = FlatStyle.Flat;
+            btnregcustomers.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnregcustomers.ForeColor = Color.White;
+            btnregcustomers.Location = new Point(0, 130);
+            btnregcustomers.Name = "btnregcustomers";
+            btnregcustomers.Size = new Size(194, 54);
+            btnregcustomers.TabIndex = 3;
+            btnregcustomers.Text = "Registered Customers";
+            btnregcustomers.UseVisualStyleBackColor = true;
+            btnregcustomers.Click += btnregcustomers_Click;
             // 
             // btnpersonalinfo
             // 
@@ -175,7 +209,7 @@
             panel3.Location = new Point(194, 0);
             panel3.Name = "panel3";
             panel3.Size = new Size(873, 76);
-            panel3.TabIndex = 2;
+            panel3.TabIndex = 3;
             // 
             // label1
             // 
@@ -184,33 +218,32 @@
             label1.ForeColor = Color.White;
             label1.Location = new Point(366, 20);
             label1.Name = "label1";
-            label1.Size = new Size(72, 30);
+            label1.Size = new Size(146, 30);
             label1.TabIndex = 0;
-            label1.Text = "Home";
+            label1.Text = "Admin - Page";
             label1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // paneldesktop
             // 
+            paneldesktop.BackColor = SystemColors.ActiveCaption;
             paneldesktop.Dock = DockStyle.Fill;
             paneldesktop.Location = new Point(194, 76);
             paneldesktop.Name = "paneldesktop";
-            paneldesktop.Size = new Size(873, 549);
-            paneldesktop.TabIndex = 3;
-            paneldesktop.Paint += paneldesktop_Paint;
+            paneldesktop.Size = new Size(873, 605);
+            paneldesktop.TabIndex = 4;
             // 
-            // CustomerDashboard
+            // AdminDashboard
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(1067, 625);
+            ClientSize = new Size(1067, 681);
             Controls.Add(paneldesktop);
             Controls.Add(panel3);
             Controls.Add(panelnavigation);
-            Name = "CustomerDashboard";
+            Name = "AdminDashboard";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Home Page";
-            Load += CustomerDashboard_Load;
+            Text = "AdminDashboard";
+            Load += AdminDashboard_Load;
             panelnavigation.ResumeLayout(false);
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
@@ -223,16 +256,18 @@
         #endregion
 
         private Panel panelnavigation;
-        private Panel panel2;
+        private Button btntransportunit;
+        private Button btnjobstatus;
+        private Button btnjobrequests;
+        private Button btnregcustomers;
         private Button btnpersonalinfo;
-        private Panel panel3;
-        private Button btnsettings;
-        private Button btnstatus;
-        private Button btnjobs;
-        private Button btnlogout;
-        private Label label1;
-        private Label label2;
+        private Panel panel2;
         private PictureBox pcblogo;
+        private Label label2;
+        private Panel panel3;
+        private Label label1;
         private Panel paneldesktop;
+        private Button btnlogout;
+        private Button btnassignedloads;
     }
 }

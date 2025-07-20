@@ -127,7 +127,13 @@ namespace Shipping_System.Forms
                     MessageBox.Show("Please enter a valid phone number.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     txtconno.Clear();
                 }
-                if(isValidEmail &&  isValidPhone)
+                if(isValidEmail &&  isValidPhone &&
+                    !string.IsNullOrWhiteSpace(txtemail.Text) &&
+                    !string.IsNullOrWhiteSpace(txtaddress.Text) &&
+                    !string.IsNullOrWhiteSpace(txtconno.Text) &&
+                    !string.IsNullOrWhiteSpace(txtpassword.Text) &&
+                    !string.IsNullOrWhiteSpace(txtfirstname.Text) &&
+                    !string.IsNullOrWhiteSpace(txtlastname.Text))
                 {
                     var customer = new CustomerModel();
                     customer.CustomerId = Convert.ToInt32(lblid.Text);
@@ -146,6 +152,10 @@ namespace Shipping_System.Forms
                     int customerId = Convert.ToInt32(lblid.Text);
                     ClearFields();
                     LoadUpdatedCustomerDetails(customerId);
+                }
+                else
+                {
+                    MessageBox.Show("Please fill in all fields with valid data.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
             catch (Exception ex)

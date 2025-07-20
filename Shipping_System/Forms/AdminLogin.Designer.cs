@@ -31,15 +31,15 @@
             btnlogin = new Button();
             btnclear = new Button();
             linkforgotpw = new LinkLabel();
-            txtadminid = new TextBox();
             txtadminmail = new TextBox();
             pcblogo = new PictureBox();
-            label4 = new Label();
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
             label5 = new Label();
             txtadminpassword = new TextBox();
+            label4 = new Label();
+            txtadminid = new TextBox();
             ((System.ComponentModel.ISupportInitialize)pcblogo).BeginInit();
             SuspendLayout();
             // 
@@ -51,9 +51,10 @@
             btnlogin.Location = new Point(620, 364);
             btnlogin.Name = "btnlogin";
             btnlogin.Size = new Size(101, 42);
-            btnlogin.TabIndex = 16;
+            btnlogin.TabIndex = 4;
             btnlogin.Text = "Login";
             btnlogin.UseVisualStyleBackColor = false;
+            btnlogin.Click += btnlogin_Click;
             // 
             // btnclear
             // 
@@ -63,7 +64,7 @@
             btnclear.Location = new Point(454, 364);
             btnclear.Name = "btnclear";
             btnclear.Size = new Size(101, 42);
-            btnclear.TabIndex = 17;
+            btnclear.TabIndex = 5;
             btnclear.Text = "Clear";
             btnclear.UseVisualStyleBackColor = false;
             // 
@@ -80,22 +81,13 @@
             linkforgotpw.TabStop = true;
             linkforgotpw.Text = "Forgot Password?";
             // 
-            // txtadminid
-            // 
-            txtadminid.Location = new Point(492, 227);
-            txtadminid.Multiline = true;
-            txtadminid.Name = "txtadminid";
-            txtadminid.PasswordChar = '*';
-            txtadminid.Size = new Size(270, 29);
-            txtadminid.TabIndex = 12;
-            // 
             // txtadminmail
             // 
             txtadminmail.Location = new Point(492, 180);
             txtadminmail.Multiline = true;
             txtadminmail.Name = "txtadminmail";
             txtadminmail.Size = new Size(270, 29);
-            txtadminmail.TabIndex = 7;
+            txtadminmail.TabIndex = 1;
             // 
             // pcblogo
             // 
@@ -104,16 +96,6 @@
             pcblogo.Size = new Size(304, 300);
             pcblogo.TabIndex = 13;
             pcblogo.TabStop = false;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.Location = new Point(374, 226);
-            label4.Name = "label4";
-            label4.Size = new Size(94, 25);
-            label4.TabIndex = 8;
-            label4.Text = "Admin Id";
             // 
             // label3
             // 
@@ -163,7 +145,25 @@
             txtadminpassword.Name = "txtadminpassword";
             txtadminpassword.PasswordChar = '*';
             txtadminpassword.Size = new Size(270, 29);
-            txtadminpassword.TabIndex = 12;
+            txtadminpassword.TabIndex = 3;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.Location = new Point(374, 226);
+            label4.Name = "label4";
+            label4.Size = new Size(94, 25);
+            label4.TabIndex = 8;
+            label4.Text = "Admin Id";
+            // 
+            // txtadminid
+            // 
+            txtadminid.Location = new Point(492, 227);
+            txtadminid.Multiline = true;
+            txtadminid.Name = "txtadminid";
+            txtadminid.Size = new Size(270, 29);
+            txtadminid.TabIndex = 2;
             // 
             // AdminLogin
             // 
@@ -197,14 +197,14 @@
         private Button btnlogin;
         private Button btnclear;
         private LinkLabel linkforgotpw;
-        private TextBox txtadminid;
         private TextBox txtadminmail;
         private PictureBox pcblogo;
-        private Label label4;
         private Label label3;
         private Label label2;
         private Label label1;
         private Label label5;
         private TextBox txtadminpassword;
+        private Label label4;
+        private TextBox txtadminid;
     }
 }

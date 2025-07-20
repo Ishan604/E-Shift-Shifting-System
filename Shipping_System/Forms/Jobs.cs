@@ -15,10 +15,10 @@ namespace Shipping_System.Forms
     public partial class Jobs : Form
     {
         private CustomerDashboard _dashboard; // Reference to the CustomerDashboard to open child forms
-        public Jobs(CustomerDashboard dashboard) 
+        public Jobs(CustomerDashboard dashboard)
         {
             InitializeComponent();
-            _dashboard = dashboard; 
+            _dashboard = dashboard;
         }
         private void LoadImage()
         {
@@ -47,8 +47,14 @@ namespace Shipping_System.Forms
 
         private void pnlcreatejob_Click(object sender, EventArgs e)
         {
-            var createJobForm = new CreateJob();
+            var createJobForm = new CreateJob(_dashboard); // Pass the current dashboard instance to CreateJob
             _dashboard.OpenChildFormInPanel(createJobForm); // Open CreateJob form in the dashboard panel
+        }
+
+        private void pnlviewjob_Click(object sender, EventArgs e)
+        {
+            var viewJob = new ViewJob(_dashboard); // Pass the current dashboard instance to viewjob
+            _dashboard.OpenChildFormInPanel(viewJob); // Open viewjob form in the dashboard panel
         }
     }
 }

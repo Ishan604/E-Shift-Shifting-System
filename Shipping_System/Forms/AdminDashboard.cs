@@ -7,14 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static Shipping_System.Forms.CustomerLogin;
+using static Shipping_System.Forms.AdminLogin;
 
 namespace Shipping_System.Forms
 {
-    public partial class CustomerDashboard : Form
+    public partial class AdminDashboard : Form
     {
         private Form activeform;
-        public CustomerDashboard()
+        public AdminDashboard()
         {
             InitializeComponent();
 
@@ -22,14 +22,6 @@ namespace Shipping_System.Forms
             string iconpath = Path.Combine(Application.StartupPath, "Images", "logo_icon.ico");
             this.Icon = new Icon(iconpath);
         }
-
-        private void LoadImage()
-        {
-            string imagepath = @"Images\logo.png";
-            pcblogo.Image = Image.FromFile(imagepath);
-            pcblogo.SizeMode = PictureBoxSizeMode.StretchImage;
-        }
-
         public void SetActiveButton(Button activebutton) //method to highlight an active button 
         {
             // Reset all buttons to default style
@@ -44,7 +36,6 @@ namespace Shipping_System.Forms
             }
             activebutton.BackColor = Color.Teal;
         }
-
         private void OpenChildForm(Form childform, Button button) // Method to open a child form in the panel
         {
             if (activeform != null)
@@ -61,7 +52,6 @@ namespace Shipping_System.Forms
             childform.BringToFront();
             childform.Show();
         }
-
         public void OpenChildFormInPanel(Form childForm) // Method to open a child form in the paneldesktop
         {
             paneldesktop.Controls.Clear();
@@ -72,50 +62,64 @@ namespace Shipping_System.Forms
             childForm.BringToFront();
             childForm.Show();
         }
-        private void CustomerDashboard_Load(object sender, EventArgs e)
+
+        private void LoadImage() // Method to load the image into the PictureBox
         {
-            LoadImage();
+            string imagepath = @"Images\logo.png";
+            pcblogo.Image = Image.FromFile(imagepath);
+            pcblogo.SizeMode = PictureBoxSizeMode.StretchImage;
         }
 
-        private void btnjobs_Click(object sender, EventArgs e)
+        private void AdminDashboard_Load(object sender, EventArgs e)
         {
-            SetActiveButton(btnjobs);
-            Jobs jobsForm = new Jobs(this); // Pass the current dashboard instance to Jobs
-            OpenChildForm(jobsForm, btnjobs);
+            LoadImage();
         }
 
         private void btnpersonalinfo_Click(object sender, EventArgs e)
         {
             SetActiveButton(btnpersonalinfo);
-            OpenChildForm(new CustomerDetails(Session.email), btnpersonalinfo);
+            OpenChildForm(new AdminDetails(Session.email, Session.id), btnpersonalinfo);
         }
 
-        private void btnstatus_Click(object sender, EventArgs e)
+        private void btnregcustomers_Click(object sender, EventArgs e)
         {
-            SetActiveButton(btnstatus);
+            SetActiveButton(btnregcustomers);
+            OpenChildForm(new RegisteredCustomers(), btnregcustomers);
         }
 
-        private void btnsettings_Click(object sender, EventArgs e)
+        private void btnjobrequests_Click(object sender, EventArgs e)
         {
-            SetActiveButton(btnsettings);
+            SetActiveButton(btnjobrequests);
+            OpenChildForm(new JobRequests(this), btnjobrequests);
+        }
+
+        private void btnjobstatus_Click(object sender, EventArgs e)
+        {
+            SetActiveButton(btnjobstatus);
+        }
+
+        private void btntransportunit_Click(object sender, EventArgs e)
+        {
+            SetActiveButton(btntransportunit);
+            OpenChildForm(new AssignTransportUnit(), btntransportunit);
+        }
+
+        private void btnassignedloads_Click(object sender, EventArgs e)
+        {
+            SetActiveButton(btnassignedloads);
+            OpenChildForm(new AddLoad(), btnassignedloads);
         }
 
         private void btnlogout_Click(object sender, EventArgs e)
         {
             SetActiveButton(btnlogout);
-            DialogResult result = MessageBox.Show("Are you sure you want to logout?", "Logout Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult result = MessageBox.Show("Are you sure you want to log out?", "Confirm Logout", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (result == DialogResult.Yes)
             {
-                this.Close(); 
-                MainInterface mainInterface = new MainInterface();
+                this.Close(); // Close the current form
+                MainInterface mainInterface = new MainInterface(); 
                 mainInterface.Show(); 
-
-            }
-        }
-
-        private void paneldesktop_Paint(object sender, PaintEventArgs e)
-        {
-
+            }   
         }
     }
 }
