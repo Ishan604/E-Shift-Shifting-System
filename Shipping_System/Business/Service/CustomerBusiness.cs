@@ -17,9 +17,19 @@ namespace Shipping_System.Business.Service
         {
             _customerRepository = customerRepository;
         }
-        public void AddStudent(CustomerModel customer)
+        public void AddCustomer(CustomerModel customer)
         {
             _customerRepository.AddCustomer(customer); // Calls the repository method to add a customer
+        }
+
+        public List<CustomerModel> GetAllCustomers()
+        {
+            return _customerRepository.GetAllCustomers(); // Calls the repository method to get all customers
+        }
+
+        public int GetCustomerIdByEmail(string email)
+        {
+            return _customerRepository.GetCustomerIdByEmail(email); // Calls the repository method to get customer ID by email
         }
 
         public List<CustomerModel> GetLoggedInCustomerDetails(string email)
