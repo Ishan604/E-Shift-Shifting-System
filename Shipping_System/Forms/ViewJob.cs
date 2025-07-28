@@ -93,6 +93,10 @@ namespace Shipping_System.Forms
         {
             _dashboard.OpenChildFormInPanel(new Jobs(_dashboard));
         }
+        public static class SessionForJob
+        {
+            public static int jobid { get; set; } // Static property to hold the job ID for session management
+        }
 
         private void dgvjobdetails_CellClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -109,6 +113,8 @@ namespace Shipping_System.Forms
                     txtemail.Text = row.Cells["email"].Value.ToString();
                     txtconno.Text = row.Cells["phoneNumber"].Value.ToString();
                     txtitems.Text = row.Cells["itemDescription"].Value.ToString();
+
+                    SessionForJob.jobid = int.Parse(lbljobid.Text); // Set the static property for job ID
                 }
 
             }

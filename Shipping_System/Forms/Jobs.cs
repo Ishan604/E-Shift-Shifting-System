@@ -56,5 +56,11 @@ namespace Shipping_System.Forms
             var viewJob = new ViewJob(_dashboard); // Pass the current dashboard instance to viewjob
             _dashboard.OpenChildFormInPanel(viewJob); // Open viewjob form in the dashboard panel
         }
+
+        private void pnljobstatus_Click(object sender, EventArgs e)
+        {
+            var jobStatus = new JobStatus(_dashboard); // Pass the current dashboard instance to JobStatus
+            _dashboard.OpenChildFormInPanel(jobStatus); // Open JobStatus form in the dashboard panel
+        }
     }
 }

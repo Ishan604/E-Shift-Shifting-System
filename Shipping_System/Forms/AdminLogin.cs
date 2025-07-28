@@ -19,6 +19,10 @@ namespace Shipping_System.Forms
         public AdminLogin()
         {
             InitializeComponent();
+
+            //set the icon from the image file into the form icon
+            string iconpath = Path.Combine(Application.StartupPath, "Images", "logo_icon.ico");
+            this.Icon = new Icon(iconpath);
         }
         private void LoadImage()
         {

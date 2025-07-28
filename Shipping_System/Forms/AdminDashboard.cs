@@ -96,6 +96,7 @@ namespace Shipping_System.Forms
         private void btnjobstatus_Click(object sender, EventArgs e)
         {
             SetActiveButton(btnjobstatus);
+            OpenChildForm(new Reports(this), btnjobstatus);
         }
 
         private void btntransportunit_Click(object sender, EventArgs e)
@@ -117,9 +118,9 @@ namespace Shipping_System.Forms
             if (result == DialogResult.Yes)
             {
                 this.Close(); // Close the current form
-                MainInterface mainInterface = new MainInterface(); 
-                mainInterface.Show(); 
-            }   
+                MainInterface mainInterface = new MainInterface();
+                mainInterface.Show();
+            }
         }
     }
 }

@@ -61,8 +61,9 @@
             panelnavigation.Controls.Add(panel2);
             panelnavigation.Dock = DockStyle.Left;
             panelnavigation.Location = new Point(0, 0);
+            panelnavigation.Margin = new Padding(3, 4, 3, 4);
             panelnavigation.Name = "panelnavigation";
-            panelnavigation.Size = new Size(194, 681);
+            panelnavigation.Size = new Size(222, 908);
             panelnavigation.TabIndex = 1;
             // 
             // btnlogout
@@ -72,9 +73,10 @@
             btnlogout.FlatStyle = FlatStyle.Flat;
             btnlogout.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnlogout.ForeColor = Color.White;
-            btnlogout.Location = new Point(0, 400);
+            btnlogout.Location = new Point(0, 533);
+            btnlogout.Margin = new Padding(3, 4, 3, 4);
             btnlogout.Name = "btnlogout";
-            btnlogout.Size = new Size(194, 54);
+            btnlogout.Size = new Size(222, 72);
             btnlogout.TabIndex = 8;
             btnlogout.Text = "Log Out";
             btnlogout.UseVisualStyleBackColor = true;
@@ -87,9 +89,10 @@
             btnassignedloads.FlatStyle = FlatStyle.Flat;
             btnassignedloads.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnassignedloads.ForeColor = Color.White;
-            btnassignedloads.Location = new Point(0, 346);
+            btnassignedloads.Location = new Point(0, 461);
+            btnassignedloads.Margin = new Padding(3, 4, 3, 4);
             btnassignedloads.Name = "btnassignedloads";
-            btnassignedloads.Size = new Size(194, 54);
+            btnassignedloads.Size = new Size(222, 72);
             btnassignedloads.TabIndex = 7;
             btnassignedloads.Text = "Assign Loads";
             btnassignedloads.UseVisualStyleBackColor = true;
@@ -102,9 +105,10 @@
             btntransportunit.FlatStyle = FlatStyle.Flat;
             btntransportunit.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btntransportunit.ForeColor = Color.White;
-            btntransportunit.Location = new Point(0, 292);
+            btntransportunit.Location = new Point(0, 389);
+            btntransportunit.Margin = new Padding(3, 4, 3, 4);
             btntransportunit.Name = "btntransportunit";
-            btntransportunit.Size = new Size(194, 54);
+            btntransportunit.Size = new Size(222, 72);
             btntransportunit.TabIndex = 6;
             btntransportunit.Text = "Transport Units";
             btntransportunit.UseVisualStyleBackColor = true;
@@ -117,11 +121,12 @@
             btnjobstatus.FlatStyle = FlatStyle.Flat;
             btnjobstatus.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnjobstatus.ForeColor = Color.White;
-            btnjobstatus.Location = new Point(0, 238);
+            btnjobstatus.Location = new Point(0, 317);
+            btnjobstatus.Margin = new Padding(3, 4, 3, 4);
             btnjobstatus.Name = "btnjobstatus";
-            btnjobstatus.Size = new Size(194, 54);
+            btnjobstatus.Size = new Size(222, 72);
             btnjobstatus.TabIndex = 5;
-            btnjobstatus.Text = "Job Status";
+            btnjobstatus.Text = "Reports";
             btnjobstatus.UseVisualStyleBackColor = true;
             btnjobstatus.Click += btnjobstatus_Click;
             // 
@@ -132,9 +137,10 @@
             btnjobrequests.FlatStyle = FlatStyle.Flat;
             btnjobrequests.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnjobrequests.ForeColor = Color.White;
-            btnjobrequests.Location = new Point(0, 184);
+            btnjobrequests.Location = new Point(0, 245);
+            btnjobrequests.Margin = new Padding(3, 4, 3, 4);
             btnjobrequests.Name = "btnjobrequests";
-            btnjobrequests.Size = new Size(194, 54);
+            btnjobrequests.Size = new Size(222, 72);
             btnjobrequests.TabIndex = 4;
             btnjobrequests.Text = "Job Requests";
             btnjobrequests.UseVisualStyleBackColor = true;
@@ -147,9 +153,10 @@
             btnregcustomers.FlatStyle = FlatStyle.Flat;
             btnregcustomers.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnregcustomers.ForeColor = Color.White;
-            btnregcustomers.Location = new Point(0, 130);
+            btnregcustomers.Location = new Point(0, 173);
+            btnregcustomers.Margin = new Padding(3, 4, 3, 4);
             btnregcustomers.Name = "btnregcustomers";
-            btnregcustomers.Size = new Size(194, 54);
+            btnregcustomers.Size = new Size(222, 72);
             btnregcustomers.TabIndex = 3;
             btnregcustomers.Text = "Registered Customers";
             btnregcustomers.UseVisualStyleBackColor = true;
@@ -162,9 +169,10 @@
             btnpersonalinfo.FlatStyle = FlatStyle.Flat;
             btnpersonalinfo.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnpersonalinfo.ForeColor = Color.White;
-            btnpersonalinfo.Location = new Point(0, 76);
+            btnpersonalinfo.Location = new Point(0, 101);
+            btnpersonalinfo.Margin = new Padding(3, 4, 3, 4);
             btnpersonalinfo.Name = "btnpersonalinfo";
-            btnpersonalinfo.Size = new Size(194, 54);
+            btnpersonalinfo.Size = new Size(222, 72);
             btnpersonalinfo.TabIndex = 2;
             btnpersonalinfo.Text = "Personal Info";
             btnpersonalinfo.UseVisualStyleBackColor = true;
@@ -177,15 +185,17 @@
             panel2.Controls.Add(label2);
             panel2.Dock = DockStyle.Top;
             panel2.Location = new Point(0, 0);
+            panel2.Margin = new Padding(3, 4, 3, 4);
             panel2.Name = "panel2";
-            panel2.Size = new Size(194, 76);
+            panel2.Size = new Size(222, 101);
             panel2.TabIndex = 1;
             // 
             // pcblogo
             // 
-            pcblogo.Location = new Point(13, 14);
+            pcblogo.Location = new Point(15, 19);
+            pcblogo.Margin = new Padding(3, 4, 3, 4);
             pcblogo.Name = "pcblogo";
-            pcblogo.Size = new Size(53, 49);
+            pcblogo.Size = new Size(61, 65);
             pcblogo.TabIndex = 2;
             pcblogo.TabStop = false;
             // 
@@ -194,9 +204,9 @@
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(72, 30);
+            label2.Location = new Point(82, 40);
             label2.Name = "label2";
-            label2.Size = new Size(114, 20);
+            label2.Size = new Size(143, 25);
             label2.TabIndex = 1;
             label2.Text = "E-shift Shifting";
             label2.TextAlign = ContentAlignment.MiddleLeft;
@@ -206,9 +216,10 @@
             panel3.BackColor = Color.Teal;
             panel3.Controls.Add(label1);
             panel3.Dock = DockStyle.Top;
-            panel3.Location = new Point(194, 0);
+            panel3.Location = new Point(222, 0);
+            panel3.Margin = new Padding(3, 4, 3, 4);
             panel3.Name = "panel3";
-            panel3.Size = new Size(873, 76);
+            panel3.Size = new Size(997, 101);
             panel3.TabIndex = 3;
             // 
             // label1
@@ -216,9 +227,9 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(366, 20);
+            label1.Location = new Point(418, 27);
             label1.Name = "label1";
-            label1.Size = new Size(146, 30);
+            label1.Size = new Size(190, 37);
             label1.TabIndex = 0;
             label1.Text = "Admin - Page";
             label1.TextAlign = ContentAlignment.MiddleCenter;
@@ -227,19 +238,21 @@
             // 
             paneldesktop.BackColor = SystemColors.ActiveCaption;
             paneldesktop.Dock = DockStyle.Fill;
-            paneldesktop.Location = new Point(194, 76);
+            paneldesktop.Location = new Point(222, 101);
+            paneldesktop.Margin = new Padding(3, 4, 3, 4);
             paneldesktop.Name = "paneldesktop";
-            paneldesktop.Size = new Size(873, 605);
+            paneldesktop.Size = new Size(997, 807);
             paneldesktop.TabIndex = 4;
             // 
             // AdminDashboard
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1067, 681);
+            ClientSize = new Size(1219, 908);
             Controls.Add(paneldesktop);
             Controls.Add(panel3);
             Controls.Add(panelnavigation);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "AdminDashboard";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "AdminDashboard";

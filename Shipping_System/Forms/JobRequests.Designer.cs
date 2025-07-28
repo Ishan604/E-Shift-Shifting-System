@@ -60,9 +60,11 @@
             // 
             dgvjobdetails.BackgroundColor = SystemColors.GradientActiveCaption;
             dgvjobdetails.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvjobdetails.Location = new Point(500, 125);
+            dgvjobdetails.Location = new Point(571, 167);
+            dgvjobdetails.Margin = new Padding(3, 4, 3, 4);
             dgvjobdetails.Name = "dgvjobdetails";
-            dgvjobdetails.Size = new Size(317, 315);
+            dgvjobdetails.RowHeadersWidth = 51;
+            dgvjobdetails.Size = new Size(362, 420);
             dgvjobdetails.TabIndex = 74;
             dgvjobdetails.CellClick += dgvjobdetails_CellClick;
             // 
@@ -72,9 +74,10 @@
             btncancel.FlatStyle = FlatStyle.Popup;
             btncancel.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             btncancel.ForeColor = SystemColors.ActiveCaptionText;
-            btncancel.Location = new Point(610, 472);
+            btncancel.Location = new Point(697, 629);
+            btncancel.Margin = new Padding(3, 4, 3, 4);
             btncancel.Name = "btncancel";
-            btncancel.Size = new Size(97, 38);
+            btncancel.Size = new Size(111, 51);
             btncancel.TabIndex = 72;
             btncancel.Text = "Cancel";
             btncancel.UseVisualStyleBackColor = false;
@@ -86,9 +89,10 @@
             btnconfirm.FlatStyle = FlatStyle.Popup;
             btnconfirm.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             btnconfirm.ForeColor = SystemColors.ActiveCaptionText;
-            btnconfirm.Location = new Point(480, 472);
+            btnconfirm.Location = new Point(549, 629);
+            btnconfirm.Margin = new Padding(3, 4, 3, 4);
             btnconfirm.Name = "btnconfirm";
-            btnconfirm.Size = new Size(99, 38);
+            btnconfirm.Size = new Size(113, 51);
             btnconfirm.TabIndex = 71;
             btnconfirm.Text = "Confirm";
             btnconfirm.UseVisualStyleBackColor = false;
@@ -96,35 +100,38 @@
             // 
             // txtitems
             // 
-            txtitems.Location = new Point(43, 447);
+            txtitems.Location = new Point(49, 596);
+            txtitems.Margin = new Padding(3, 4, 3, 4);
             txtitems.Multiline = true;
             txtitems.Name = "txtitems";
-            txtitems.Size = new Size(405, 82);
+            txtitems.Size = new Size(462, 108);
             txtitems.TabIndex = 69;
             // 
             // txtconno
             // 
-            txtconno.Location = new Point(178, 357);
+            txtconno.Location = new Point(203, 476);
+            txtconno.Margin = new Padding(3, 4, 3, 4);
             txtconno.Multiline = true;
             txtconno.Name = "txtconno";
-            txtconno.Size = new Size(270, 29);
+            txtconno.Size = new Size(308, 37);
             txtconno.TabIndex = 68;
             // 
             // txtemail
             // 
-            txtemail.Location = new Point(178, 311);
+            txtemail.Location = new Point(203, 415);
+            txtemail.Margin = new Padding(3, 4, 3, 4);
             txtemail.Multiline = true;
             txtemail.Name = "txtemail";
-            txtemail.Size = new Size(270, 29);
+            txtemail.Size = new Size(308, 37);
             txtemail.TabIndex = 67;
             // 
             // label6
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label6.Location = new Point(43, 403);
+            label6.Location = new Point(49, 537);
             label6.Name = "label6";
-            label6.Size = new Size(195, 21);
+            label6.Size = new Size(244, 28);
             label6.TabIndex = 64;
             label6.Text = "Items you added to shift";
             // 
@@ -132,53 +139,56 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.Location = new Point(43, 359);
+            label5.Location = new Point(49, 479);
             label5.Name = "label5";
-            label5.Size = new Size(126, 21);
+            label5.Size = new Size(154, 28);
             label5.TabIndex = 63;
             label5.Text = "Phone Number";
             // 
             // txtdestination
             // 
-            txtdestination.Location = new Point(178, 266);
+            txtdestination.Location = new Point(203, 355);
+            txtdestination.Margin = new Padding(3, 4, 3, 4);
             txtdestination.Multiline = true;
             txtdestination.Name = "txtdestination";
-            txtdestination.Size = new Size(270, 29);
+            txtdestination.Size = new Size(308, 37);
             txtdestination.TabIndex = 70;
             // 
             // label4
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.Location = new Point(43, 313);
+            label4.Location = new Point(49, 417);
             label4.Name = "label4";
-            label4.Size = new Size(53, 21);
+            label4.Size = new Size(64, 28);
             label4.TabIndex = 62;
             label4.Text = "Email";
             // 
             // txtname
             // 
-            txtname.Location = new Point(178, 175);
+            txtname.Location = new Point(203, 233);
+            txtname.Margin = new Padding(3, 4, 3, 4);
             txtname.Multiline = true;
             txtname.Name = "txtname";
-            txtname.Size = new Size(270, 29);
+            txtname.Size = new Size(308, 37);
             txtname.TabIndex = 65;
             // 
             // txtstartloc
             // 
-            txtstartloc.Location = new Point(178, 220);
+            txtstartloc.Location = new Point(203, 293);
+            txtstartloc.Margin = new Padding(3, 4, 3, 4);
             txtstartloc.Multiline = true;
             txtstartloc.Name = "txtstartloc";
-            txtstartloc.Size = new Size(270, 29);
+            txtstartloc.Size = new Size(308, 37);
             txtstartloc.TabIndex = 66;
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(43, 268);
+            label3.Location = new Point(49, 357);
             label3.Name = "label3";
-            label3.Size = new Size(99, 21);
+            label3.Size = new Size(122, 28);
             label3.TabIndex = 61;
             label3.Text = "Destination";
             // 
@@ -187,18 +197,18 @@
             lbljobid.AutoSize = true;
             lbljobid.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lbljobid.ForeColor = Color.DarkRed;
-            lbljobid.Location = new Point(178, 123);
+            lbljobid.Location = new Point(203, 164);
             lbljobid.Name = "lbljobid";
-            lbljobid.Size = new Size(0, 21);
+            lbljobid.Size = new Size(0, 28);
             lbljobid.TabIndex = 60;
             // 
             // label8
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label8.Location = new Point(43, 125);
+            label8.Location = new Point(49, 167);
             label8.Name = "label8";
-            label8.Size = new Size(58, 21);
+            label8.Size = new Size(72, 28);
             label8.TabIndex = 59;
             label8.Text = "Job ID";
             // 
@@ -206,9 +216,9 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label7.Location = new Point(43, 177);
+            label7.Location = new Point(49, 236);
             label7.Name = "label7";
-            label7.Size = new Size(85, 21);
+            label7.Size = new Size(104, 28);
             label7.TabIndex = 58;
             label7.Text = "Full name";
             // 
@@ -217,18 +227,18 @@
             lblcustomerid.AutoSize = true;
             lblcustomerid.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblcustomerid.ForeColor = Color.DarkRed;
-            lblcustomerid.Location = new Point(178, 87);
+            lblcustomerid.Location = new Point(203, 116);
             lblcustomerid.Name = "lblcustomerid";
-            lblcustomerid.Size = new Size(0, 21);
+            lblcustomerid.Size = new Size(0, 28);
             lblcustomerid.TabIndex = 54;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(43, 222);
+            label2.Location = new Point(49, 296);
             label2.Name = "label2";
-            label2.Size = new Size(116, 21);
+            label2.Size = new Size(146, 28);
             label2.TabIndex = 57;
             label2.Text = "Start Location";
             // 
@@ -236,18 +246,18 @@
             // 
             lblstatus.AutoSize = true;
             lblstatus.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblstatus.Location = new Point(228, 123);
+            lblstatus.Location = new Point(261, 164);
             lblstatus.Name = "lblstatus";
-            lblstatus.Size = new Size(0, 21);
+            lblstatus.Size = new Size(0, 28);
             lblstatus.TabIndex = 56;
             // 
             // label9
             // 
             label9.AutoSize = true;
             label9.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label9.Location = new Point(43, 87);
+            label9.Location = new Point(49, 116);
             label9.Name = "label9";
-            label9.Size = new Size(104, 21);
+            label9.Size = new Size(129, 28);
             label9.TabIndex = 55;
             label9.Text = "Customer ID";
             // 
@@ -255,16 +265,17 @@
             // 
             lblcustomername.AutoSize = true;
             lblcustomername.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblcustomername.Location = new Point(628, 29);
+            lblcustomername.Location = new Point(644, 39);
             lblcustomername.Name = "lblcustomername";
-            lblcustomername.Size = new Size(0, 21);
+            lblcustomername.Size = new Size(0, 28);
             lblcustomername.TabIndex = 53;
             // 
             // pcbuserlogo
             // 
-            pcbuserlogo.Location = new Point(556, 14);
+            pcbuserlogo.Location = new Point(561, 19);
+            pcbuserlogo.Margin = new Padding(3, 4, 3, 4);
             pcbuserlogo.Name = "pcbuserlogo";
-            pcbuserlogo.Size = new Size(53, 52);
+            pcbuserlogo.Size = new Size(61, 69);
             pcbuserlogo.TabIndex = 52;
             pcbuserlogo.TabStop = false;
             // 
@@ -272,9 +283,9 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(30, 22);
+            label1.Location = new Point(34, 29);
             label1.Name = "label1";
-            label1.Size = new Size(257, 32);
+            label1.Size = new Size(318, 41);
             label1.TabIndex = 51;
             label1.Text = "View All Job's Details";
             label1.TextAlign = ContentAlignment.TopCenter;
@@ -285,19 +296,20 @@
             btncheck.FlatStyle = FlatStyle.Popup;
             btncheck.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             btncheck.ForeColor = SystemColors.ActiveCaptionText;
-            btncheck.Location = new Point(740, 472);
+            btncheck.Location = new Point(846, 629);
+            btncheck.Margin = new Padding(3, 4, 3, 4);
             btncheck.Name = "btncheck";
-            btncheck.Size = new Size(95, 38);
+            btncheck.Size = new Size(109, 51);
             btncheck.TabIndex = 75;
             btncheck.Text = "Check";
             btncheck.UseVisualStyleBackColor = false;
             // 
             // JobRequests
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(847, 541);
+            ClientSize = new Size(968, 721);
             Controls.Add(btncheck);
             Controls.Add(dgvjobdetails);
             Controls.Add(btncancel);
@@ -322,6 +334,7 @@
             Controls.Add(lblcustomername);
             Controls.Add(pcbuserlogo);
             Controls.Add(label1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "JobRequests";
             Text = "JobRequests";
             Load += JobRequests_Load;
