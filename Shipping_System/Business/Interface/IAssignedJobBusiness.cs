@@ -10,5 +10,6 @@ namespace Shipping_System.Business.Interface
     public interface IAssignedJobBusiness
     {
         public void AddAssignedJobDetails(AssignedJobModel assignedJob);
+        List<AssignedJobModel> GetAssignedJobDetailsByJobId(int jobId); // Method to get assigned job details by job ID
     }
 }
