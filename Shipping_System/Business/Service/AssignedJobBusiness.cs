@@ -20,5 +20,10 @@ namespace Shipping_System.Business.Service
         {
             _assignedJobRepository.AddAssignedJobDetails(assignedJob);
         }
+
+        public List<AssignedJobModel> GetAssignedJobDetailsByJobId(int jobId)
+        {
+            return _assignedJobRepository.GetAssignedJobDetailsByJobId(jobId);
+        }
     }
 }
