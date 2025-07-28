@@ -9,6 +9,7 @@ namespace Shipping_System.Repository.Interface
 {
     public interface IAssignedJobRepository
     {
-        public void AddAssignedJobDetails(AssignedJobModel assignedJob); //Method to add assigned job details 
+        public void AddAssignedJobDetails(AssignedJobModel assignedJob); //Method to add assigned job details
+        List<AssignedJobModel> GetAssignedJobDetailsByJobId(int jobId); // Method to get assigned job details by job ID
     }
 }
